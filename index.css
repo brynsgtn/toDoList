@@ -3,8 +3,12 @@
     margin: 0;
     font-family: "Anta", sans-serif;
     font-style: normal;
-    
+    user-select: none;
   }
+
+
+/* landing.html style */
+
 
 .light {
     height: 50vh;
@@ -50,9 +54,115 @@
 
  }
 
-.go-btn:hover {background-color: #526D82}
+.go-btn:hover {
+  background-color: white;
+  color:#526D82;
+}
 
 .go-btn:active {
   background-color: #526D82;
   transform: translateY(4px);
 }
+
+
+/* lists.html style */
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+  min-width: 320px;
+  margin: 0px auto 0px;
+  height: 100vh;
+}
+.lists-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #526D82;
+  min-width: 320px;
+}
+
+.add-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.add-btn {
+  width: 50px;
+  background-color: #DDE6ED;
+  border-style: none;
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+
+.add-img {
+  width: 30px;
+}
+
+.bttn-group {
+  margin-left: auto!important;
+}
+.img-pencil {
+  width: 20px;
+}
+
+.img-delete {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.pencil-btn, .delete-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.pencil-btn:active,  .delete-btn:active{
+  transform: translateY(4px);
+}
+
+ul {
+  list-style: none;
+  padding: 10px!important;
+  margin: 0px;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+  font-size: 15px;
+  border-left: solid;
+  border-color: #9DB2BF;
+  border-width: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #9DB2BF;
+}
+
+.clicked {
+  background-color: #9DB2BF;
+  text-decoration: line-through;
+  color: white;
+
+}
+
+.clicked:hover {
+  background-color: white;
+  color: black;
+}
+
+.unclicked {
+  background-color: white;
+}
+
