@@ -4,7 +4,7 @@ This is a simple web-based to-do list application built using JavaScript, HTML, 
 
 ## Features
 
-**Create Tasks:** Add new tasks to your to-do list with ease.
+- **Create Tasks:** Add new tasks to your to-do list with ease.
 Edit Tasks: Update the details of existing tasks as needed.
 Delete Tasks: Remove tasks from your to-do list when they're completed or no longer needed.
 Real-Time Sync: Changes made to the to-do list are instantly synchronized across all devices thanks to Firebase Realtime Database.
