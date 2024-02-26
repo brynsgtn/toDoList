@@ -28,9 +28,9 @@ https://to-do-list-brynsgtn.netlify.app/
 
 ## Acknowledgements
 
--Documentation provided by W3schools
--Firebase SDK and documentation provided by Firebase.
--Bootstrap framework provided by Bootstrap.
--Thanks to Scrimba for providing interactive coding tutorials and resources.
+- **Documentation provided by W3schools
+- **Firebase SDK and documentation provided by Firebase.
+- **Bootstrap framework provided by Bootstrap.
+- **Thanks to Scrimba for providing interactive coding tutorials and resources.
 
 
