@@ -1,3 +1,6 @@
+
+/* Stylesheet */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,15 +10,13 @@
   }
 
 
-/* landing.html style */
-
+/* index.html style */
 
 .light {
     height: 50vh;
     display: grid;
     place-content: center;
-    text-align: center;
-   
+    text-align: center; 
  }
 
 .header {
@@ -51,7 +52,6 @@
     font-size: 12px;
     letter-spacing: 1px;
     border-radius: 8px;
-
  }
 
 .go-btn:hover {
@@ -73,8 +73,8 @@
   max-width: 768px;
   min-width: 320px;
   margin: 0px auto 0px;
-  height: 100vh;
 }
+
 .lists-header {
   text-align: center;
   padding: 20px;
@@ -88,13 +88,14 @@
   justify-content: space-between;
   padding: 30px;
 }
+
 .add-btn {
   width: 50px;
   background-color: #DDE6ED;
   border-style: none;
   border-radius: 50%;
   padding: 10px;
-  
+
 }
 
 .add-img {
@@ -104,6 +105,7 @@
 .bttn-group {
   margin-left: auto!important;
 }
+
 .img-pencil {
   width: 20px;
 }
@@ -166,3 +168,11 @@ li:hover {
   background-color: white;
 }
 
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 50px;
+}
