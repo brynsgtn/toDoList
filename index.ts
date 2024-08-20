@@ -218,8 +218,6 @@ function clearItemListsEl(): void {
       
 }
 
-
-
 // Add event to go back to landing page
 backBtn.addEventListener("click", function(event: MouseEvent) {
     location.href="./index.html"
