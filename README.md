@@ -1,6 +1,6 @@
 ## To-Do List App
 
-This is a simple web-based to-do list application built using JavaScript, HTML, CSS, Bootstrap, and Firebase. It allows users to create, edit, and delete tasks, with real-time synchronization using Firebase Realtime Database.
+This is a simple web-based to-do list application built using JavaScript and then converted into TypeScript, HTML, CSS, Bootstrap, and Firebase. It allows users to create, edit, and delete tasks, with real-time synchronization using Firebase Realtime Database.
 
 ## Features
 
@@ -13,6 +13,7 @@ This is a simple web-based to-do list application built using JavaScript, HTML, 
 ## Technologies Used
 
 - **JavaScript:** Used for dynamic functionality and interaction.
+- **TypeScript:** Used for type safety and advanced tooling.
 - **HTML:** Markup language for structuring the web page.
 - **CSS:** Styling language for enhancing the appearance of the app.
 - **Bootstrap:** Front-end framework for building responsive and mobile-first websites.
