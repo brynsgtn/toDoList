@@ -3,13 +3,53 @@
   "version": "1.0.0",
   "main": "lists.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This is a simple web-based to-do list application built using JavaScript and then converted into TypeScript, HTML, CSS, Bootstrap, and Firebase. It allows users to create, edit, and delete tasks, with real-time synchronization using Firebase Realtime Database.",
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "ansi-regex": "^5.0.1",
+    "ansi-styles": "^4.3.0",
+    "cliui": "^7.0.4",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "emoji-regex": "^8.0.0",
+    "escalade": "^3.1.2",
+    "faye-websocket": "^0.11.4",
+    "firebase": "^9.23.0",
+    "get-caller-file": "^2.0.5",
+    "http-parser-js": "^0.5.8",
+    "idb": "^7.1.1",
+    "is-fullwidth-code-point": "^3.0.0",
+    "lodash.camelcase": "^4.3.0",
+    "long": "^4.0.0",
+    "node-fetch": "^2.6.7",
+    "protobufjs": "^6.11.4",
+    "require-directory": "^2.1.1",
+    "safe-buffer": "^5.2.1",
+    "string-width": "^4.2.3",
+    "strip-ansi": "^6.0.1",
+    "tr46": "^0.0.3",
+    "tslib": "^2.6.3",
+    "undici-types": "^6.19.8",
+    "webidl-conversions": "^3.0.1",
+    "websocket-driver": "^0.7.4",
+    "websocket-extensions": "^0.1.4",
+    "whatwg-url": "^5.0.0",
+    "wrap-ansi": "^7.0.0",
+    "y18n": "^5.0.8",
+    "yargs": "^16.2.0",
+    "yargs-parser": "^20.2.9"
   }
 }
