@@ -209,7 +209,6 @@ inputElement?.addEventListener("keypress", (event: KeyboardEvent) => {
     }
   });
 
-
 // Function to clear list
 function clearItemListsEl(): void {
     if(listItemsEl){
