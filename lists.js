@@ -8,6 +8,7 @@ const appSettings = {
 
 // Database initialization and connection
 const app = initializeApp(appSettings)
+console.log(app)
 const database = getDatabase(app)
 const listItemsInDB = ref(database, "listItems")
 
@@ -50,6 +51,7 @@ onValue(listItemsInDB, function(snapshot) {
         for(let i = 0; i < listItemsArray.length; i++) {
             let currentItem = listItemsArray[i]
             appendlistItemsEl(currentItem)
+            console.log(currentItem)
 
             let totalItems = listItemsArray.length
             numItemsEl.innerHTML = `Items: ${totalItems}`
@@ -142,6 +144,7 @@ editBtnEl.addEventListener("click", function() {
      // Retrieve the new value from the input field
      let newValue = document.getElementById("edit-list-name").value;
      console.log(selectedItemID)
+     console.log(typeof selectedItemID)
         if (selectedItemID) {
         
             if (newValue.length > 1 && newValue.length <= 15) {
